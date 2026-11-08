@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# generated at runtime — not needed on the other machine
+
+
+# pretrained model cache (re-downloaded automatically)
+pretrained_models/
+.deepface/
+
+# biometric data: never commit
+my_photos/
+database/
+*.pkl
